@@ -1,0 +1,18 @@
+{
+  "name": "muds-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chinese-numbers-converter": "^2.3.1",
+    "iconv-lite": "^0.6.3",
+    "moment": "^2.29.1",
+    "telnet-stream": "^1.0.5"
+  }
+}
