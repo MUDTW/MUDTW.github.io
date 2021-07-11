@@ -9,7 +9,7 @@ const { writeFileSync } = require('fs');
 
 
 const file = process.argv[2] || "tw"
-const muds = require(`../../src/data/muds-${file}.json`);
+const muds = require(`../../src/static/muds-${file}.json`);
 const data = [];
 
 const getStatus = (mud) => {
@@ -98,7 +98,7 @@ process.on('exit', function () {
   // Do some cleanup such as close db
   data.sort();
   writeFileSync(
-    path.resolve(__dirname, '../../src/data/', `muds-${file}.json`),
+    path.resolve(__dirname, '../../static/data/', `muds-${file}.json`),
     JSON.stringify(data, null, 2),
     {
       encoding: 'utf8',

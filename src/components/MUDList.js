@@ -1,4 +1,7 @@
 import React from 'react';
+import clsx from 'clsx';
+import styles from './list.module.css';
+import useFetch from 'react-fetch-hook';
 
 const useSortableData = (items, config = null) => {
   const [sortConfig, setSortConfig] = React.useState(config);
@@ -35,14 +38,18 @@ const useSortableData = (items, config = null) => {
 };
 
 const MUDList = (props) => {
-  const { items, requestSort, sortConfig } = useSortableData(props.data);
-  const getClassNamesFor = (name) => {
-    if (!sortConfig) {
-      return;
-    }
-    return sortConfig.key === name ? sortConfig.direction : undefined;
-  };
-  return (
+  const { isLoading, data } = useFetch(`../data/muds-tw.json`);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  } else {
+    const { items, requestSort, sortConfig } = useSortableData(data);
+    const getClassNamesFor = (name) => {
+      if (!sortConfig) {
+        return;
+      }
+      return sortConfig.key === name ? sortConfig.direction : undefined;
+    };
     <table>
       <thead>
         <tr>
@@ -106,8 +113,8 @@ const MUDList = (props) => {
         {items.map((item) => (
           <tr key={item.id}>
             <td>
-              <div className="zhName">{item.zh_name}</div>
-              <div className="enName">{item.en_name}</div>
+              <div className={clsx(styles.zhName)}>{item.zh_name}</div>
+              <div className={clsx(styles.enName)}>{item.en_name}</div>
             </td>
             <td>{item.address}</td>
             <td>{item.port}</td>
@@ -117,8 +124,8 @@ const MUDList = (props) => {
           </tr>
         ))}
       </tbody>
-    </table>
-  );
+    </table>;
+  }
 };
 
 export default MUDList;

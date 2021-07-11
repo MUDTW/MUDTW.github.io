@@ -38,3 +38,11 @@ tbody td {
 tbody tr:hover {
   background-color: #eee;
 }
+
+.enName {
+  background-color: red;
+}
+
+.zhName {
+  background-color: blue;
+}
