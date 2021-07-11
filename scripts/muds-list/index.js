@@ -9,7 +9,7 @@ const { writeFileSync } = require('fs');
 
 
 const file = process.argv[2] || "tw"
-const muds = require(`../../static/muds-${file}.json`);
+const muds = require(`../../static/data/muds-${file}.json`);
 const data = [];
 
 const getStatus = (mud) => {
