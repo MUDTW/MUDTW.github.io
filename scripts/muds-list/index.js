@@ -49,7 +49,15 @@ const getStatus = (mud) => {
     if (data.match(RegExp('非移动客户端请按0回车或直接回车'), 'i')) {
       tSocket.write('0\n');
     }
-
+    
+    if (data.match(RegExp('确认进入请输入 0 :'), 'i')) {
+      tSocket.write('0\n');
+    }
+    
+    if (data.match(RegExp('0\\) 国标码\\(瓣夹絏\\) GB'), 'i')) {
+      tSocket.write('GB\n');
+    }
+    
     content = content + data;
   });
 
