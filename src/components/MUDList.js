@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './list.module.css';
+import styles from './MUDList.module.css';
 import useFetch from 'react-fetch-hook';
 
 const useSortableData = (items, config = null) => {
@@ -37,27 +37,24 @@ const useSortableData = (items, config = null) => {
   return { items: sortedItems, requestSort, sortConfig };
 };
 
-const MUDList = (props) => {
-  const { isLoading, data } = useFetch(`../data/muds-tw.json`);
+const MUDTable = (props) => {
+  const { items, requestSort, sortConfig } = useSortableData(props.data);
+  const getClassNamesFor = (name) => {
+    if (!sortConfig) {
+      return 'None';
+    }
+    return sortConfig.key === name ? sortConfig.direction : undefined;
+  };
 
-  if (isLoading) {
-    return <div>Loading...</div>;
-  } else {
-    const { items, requestSort, sortConfig } = useSortableData(data);
-    const getClassNamesFor = (name) => {
-      if (!sortConfig) {
-        return;
-      }
-      return sortConfig.key === name ? sortConfig.direction : undefined;
-    };
-    <table>
+  return (
+    <table className={clsx(styles.mudlist)}>
       <thead>
         <tr>
           <th>
             <button
               type="button"
               onClick={() => requestSort('name')}
-              className={`red ${getClassNamesFor('name')}`}
+              className={getClassNamesFor('name')}
             >
               泥巴名稱
             </button>
@@ -69,15 +66,6 @@ const MUDList = (props) => {
               className={getClassNamesFor('address')}
             >
               網路位置
-            </button>
-          </th>
-          <th>
-            <button
-              type="button"
-              onClick={() => requestSort('port')}
-              className={getClassNamesFor('port')}
-            >
-              連接埠
             </button>
           </th>
           <th>
@@ -111,20 +99,47 @@ const MUDList = (props) => {
       </thead>
       <tbody>
         {items.map((item) => (
-          <tr key={item.id}>
+          <tr key={`${item.address}_${item.port}`}>
             <td>
               <div className={clsx(styles.zhName)}>{item.zh_name}</div>
               <div className={clsx(styles.enName)}>{item.en_name}</div>
             </td>
-            <td>{item.address}</td>
-            <td>{item.port}</td>
-            <td>{item.status ? 'O' : 'X'}</td>
-            <td>{item.count}</td>
-            <td>{item.update}</td>
+            <td className={clsx(styles.host)}>
+              <a
+                href={`telnet://${item.address}:${item.port}/`}
+                target="_blank"
+              >
+                <div className={clsx(styles.address)}>{item.address}</div>
+                <div className={clsx(styles.port)}>{item.port}</div>
+              </a>
+            </td>
+            {item.status ? (
+              <td className={clsx(styles.online)}>連線正常</td>
+            ) : (
+              <td className={clsx(styles.offline)}>連線失敗</td>
+            )}
+            <td className={clsx(styles.count)}>
+              {item.count == 'NULL' ? '-' : item.count}
+            </td>
+            <td>
+              <div className={clsx(styles.update)}>{item.update}</div>
+            </td>
           </tr>
         ))}
       </tbody>
-    </table>;
+    </table>
+  );
+};
+
+const MUDList = (props) => {
+  const { isLoading, data } = useFetch(`../data/muds-${props.data}.json`);
+
+  console.log(isLoading);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  } else {
+    return <MUDTable data={data} />;
   }
 };
 

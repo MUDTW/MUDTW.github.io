@@ -1,0 +1,62 @@
+.mudlist {
+  font-size: 0.8rem;
+}
+.enName {
+  font-size: 0.8rem;
+  color: rgb(153, 153, 153);
+}
+
+.zhName {
+  font-size: 1rem;
+}
+
+.host {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.address {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.port {
+  color: rgb(153, 153, 153);
+}
+
+.count {
+  text-align: center;
+}
+
+.update {
+  text-align: center;
+}
+
+.online {
+  text-align: center;
+  color: #5f5;
+  background-color: rgb(0, 95, 0);
+}
+
+.offline {
+  text-align: center;
+  color: #f55;
+  background-color: rgb(95, 0, 0);
+}
+
+.mudlist td {
+  padding: 0.25rem 0.5rem;
+}
+
+.name {
+  width: 70%;
+}
+
+th button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  text-align: center;
+  cursor: default;
+  margin: 0;
+  border-style: none;
+}

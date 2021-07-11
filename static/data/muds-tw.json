@@ -73,7 +73,7 @@
   },
   {
     "zh_name": "迴風追夢",
-    "en_name": "DIW",
+    "en_name": "Dream In Wind (DIW)",
     "encoding": "big5",
     "address": "54.238.150.137",
     "port": 4000,
@@ -85,7 +85,7 @@
   },
   {
     "zh_name": "東方故事",
-    "en_name": "Eastern Stories",
+    "en_name": "Eastern Stories (ES)",
     "encoding": "big5",
     "address": "es.clovers.tw",
     "port": 8000,
@@ -97,7 +97,7 @@
   },
   {
     "zh_name": "四度空間",
-    "en_name": "void",
+    "en_name": "Void",
     "encoding": "big5",
     "address": "220.133.42.198",
     "port": 7777,
@@ -109,7 +109,7 @@
   },
   {
     "zh_name": "小貓的世界",
-    "en_name": "The cat world",
+    "en_name": "The Cat World",
     "encoding": "big5",
     "address": "catworld.muds.tw",
     "port": 5555,
@@ -146,7 +146,7 @@
   },
   {
     "zh_name": "重生的世界",
-    "en_name": "Revival World",
+    "en_name": "Revival World (RW)",
     "encoding": "big5",
     "address": "mud.revivalworld.org",
     "port": 4000,
@@ -254,7 +254,7 @@
   },
   {
     "zh_name": "萬王之王",
-    "en_name": "King of Kings",
+    "en_name": "King of Kings (KK)",
     "encoding": "big5",
     "address": "kk.muds.idv.tw",
     "port": 4000,
@@ -278,7 +278,7 @@
   },
   {
     "zh_name": "三國歪傳",
-    "en_name": "MUD Sango",
+    "en_name": "MUD Sango (3Y)",
     "encoding": "big5",
     "address": "mud.csie.org",
     "port": 3838,
@@ -302,7 +302,7 @@
   },
   {
     "zh_name": "亞雷恩傳奇",
-    "en_name": "The sage of arion",
+    "en_name": "The Sage of Arion",
     "encoding": "big5",
     "address": "arion.allowed.org",
     "port": 6000,
@@ -314,7 +314,7 @@
   },
   {
     "zh_name": "龍域傳奇",
-    "en_name": "Dragonrealm",
+    "en_name": "The DragonRealm (DR3000)",
     "encoding": "big5",
     "address": "dragonrealms.co",
     "port": 3000,
