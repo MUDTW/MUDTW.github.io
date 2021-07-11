@@ -44,7 +44,7 @@ jobs:
           # Checkout the branch so we can push back to it
           git checkout gh-pages
           git checkout docs static/data
-          mv -f statuc/data/*.json data
+          mv -f static/data/*.json data
           git add -A
           # Only commit and push if we have changes
           git diff --quiet && git diff --staged --quiet || (git commit -m ":rocket: Update at $(date +'%Y-%m-%d %H:%M')")
