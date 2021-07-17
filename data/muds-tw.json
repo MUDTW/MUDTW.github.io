@@ -12,18 +12,6 @@
     "convert": false
   },
   {
-    "zh_name": "異想世界",
-    "en_name": "Imaginary world",
-    "encoding": "big5",
-    "address": "43.252.229.138",
-    "port": 4000,
-    "regex": "(\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "NULL",
-    "convert": false
-  },
-  {
     "zh_name": "夢幻七域",
     "en_name": "The Dream of Seven",
     "encoding": "big5",
@@ -31,7 +19,7 @@
     "port": 7000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "12",
     "convert": false
   },
@@ -43,8 +31,32 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "16",
+    "convert": false
+  },
+  {
+    "zh_name": "異想世界",
+    "en_name": "Imaginary world",
+    "encoding": "big5",
+    "address": "43.252.229.138",
+    "port": 4000,
+    "regex": "(\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "22",
+    "convert": false
+  },
+  {
+    "zh_name": "東方故事",
+    "en_name": "Eastern Stories (ES)",
+    "encoding": "big5",
+    "address": "es.clovers.tw",
+    "port": 8000,
+    "regex": "共有: (\\d+) 個玩家",
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "28",
     "convert": false
   },
   {
@@ -55,7 +67,7 @@
     "port": 6789,
     "regex": "目前已經有 (\\d+) 個原始人",
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "4",
     "convert": false
   },
@@ -67,20 +79,8 @@
     "port": 7788,
     "regex": "目前有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "102",
-    "convert": false
-  },
-  {
-    "zh_name": "東方故事",
-    "en_name": "Eastern Stories (ES)",
-    "encoding": "big5",
-    "address": "es.clovers.tw",
-    "port": 8000,
-    "regex": "共有: (\\d+) 個玩家",
-    "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "34",
+    "update": "2021-07-17 08:28",
+    "count": "105",
     "convert": false
   },
   {
@@ -91,20 +91,8 @@
     "port": 9999,
     "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "16",
-    "convert": false
-  },
-  {
-    "zh_name": "時空幻境",
-    "en_name": "Time Space Dreamland",
-    "encoding": "big5",
-    "address": "td.muds.net",
-    "port": 5000,
-    "regex": "(\\d+) 位玩家",
-    "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "16",
+    "update": "2021-07-17 08:28",
+    "count": "5",
     "convert": false
   },
   {
@@ -115,8 +103,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "32",
+    "update": "2021-07-17 08:28",
+    "count": "31",
     "convert": false
   },
   {
@@ -127,31 +115,7 @@
     "port": 7777,
     "regex": false,
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "迴風追夢",
-    "en_name": "Dream In Wind (DIW)",
-    "encoding": "big5",
-    "address": "54.238.150.137",
-    "port": 4000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "時空之門",
-    "en_name": "The Ages",
-    "encoding": "big5",
-    "address": "mud.slzzp.net",
-    "port": 4848,
-    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
-    "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "NULL",
     "convert": false
   },
@@ -163,8 +127,44 @@
     "port": 5555,
     "regex": "現在有 (\\d+) 名勇者",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "2",
+    "update": "2021-07-17 08:28",
+    "count": "3",
+    "convert": false
+  },
+  {
+    "zh_name": "時空之門",
+    "en_name": "The Ages",
+    "encoding": "big5",
+    "address": "mud.slzzp.net",
+    "port": 4848,
+    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "迴風追夢",
+    "en_name": "Dream In Wind (DIW)",
+    "encoding": "big5",
+    "address": "54.238.150.137",
+    "port": 4000,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "時空幻境",
+    "en_name": "Time Space Dreamland",
+    "encoding": "big5",
+    "address": "td.muds.net",
+    "port": 5000,
+    "regex": "(\\d+) 位玩家",
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "16",
     "convert": false
   },
   {
@@ -175,8 +175,8 @@
     "port": 4000,
     "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "42",
+    "update": "2021-07-17 08:28",
+    "count": "46",
     "convert": false
   },
   {
@@ -187,8 +187,20 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "42",
+    "convert": false
+  },
+  {
+    "zh_name": "聖殿英雄傳說",
+    "en_name": "Sanctuary",
+    "encoding": "big5",
+    "address": "sanc.game.tw",
+    "port": 4002,
+    "regex": "人數/上限\\[(\\d+)/.+\\]",
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "115",
     "convert": false
   },
   {
@@ -200,20 +212,8 @@
     "regex": "(\\d+) 位玩家在線上",
     "url": "http://catworld.muds.tw/web",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "114",
-    "convert": false
-  },
-  {
-    "zh_name": "聖殿英雄傳說",
-    "en_name": "Sanctuary",
-    "encoding": "big5",
-    "address": "sanc.game.tw",
-    "port": 4002,
-    "regex": "人數/上限\\[(\\d+)/.+\\]",
-    "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "115",
+    "update": "2021-07-17 08:28",
+    "count": "132",
     "convert": false
   },
   {
@@ -224,8 +224,8 @@
     "port": 6666,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "170",
+    "update": "2021-07-17 08:28",
+    "count": "175",
     "convert": false
   },
   {
@@ -236,8 +236,8 @@
     "port": 8000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "118",
+    "update": "2021-07-17 08:28",
+    "count": "122",
     "convert": false
   },
   {
@@ -248,7 +248,7 @@
     "port": 7000,
     "regex": false,
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "NULL",
     "convert": false
   },
@@ -260,8 +260,8 @@
     "port": 4000,
     "regex": "目前線上共有 (\\d+) 位英雄豪傑",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "398",
+    "update": "2021-07-17 08:28",
+    "count": "408",
     "convert": false
   },
   {
@@ -272,8 +272,8 @@
     "port": 5555,
     "regex": "線上 (\\d+)",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "0",
+    "update": "2021-07-17 08:28",
+    "count": "10",
     "convert": false
   },
   {
@@ -284,19 +284,7 @@
     "port": 4040,
     "regex": false,
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "亞雷恩傳奇",
-    "en_name": "The Sage of Arion",
-    "encoding": "big5",
-    "address": "arion.allowed.org",
-    "port": 6000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "NULL",
     "convert": false
   },
@@ -308,8 +296,8 @@
     "port": 3838,
     "regex": "目前共有(.+)人在此遙遠的三國歪傳之降龍伏虎奮鬥",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "83",
+    "update": "2021-07-17 08:28",
+    "count": "81",
     "convert": true
   },
   {
@@ -320,7 +308,7 @@
     "port": 3000,
     "regex": false,
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "NULL",
     "convert": false
   },
@@ -333,7 +321,7 @@
     "timeout": 10,
     "regex": "(\\d+) 位英雄在亂世之中",
     "status": true,
-    "update": "2021-07-17 07:35",
+    "update": "2021-07-17 08:28",
     "count": "89"
   },
   {
@@ -344,8 +332,20 @@
     "port": 6000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-17 07:35",
-    "count": "41",
+    "update": "2021-07-17 08:28",
+    "count": "48",
+    "convert": false
+  },
+  {
+    "zh_name": "亞雷恩傳奇",
+    "en_name": "The Sage of Arion",
+    "encoding": "big5",
+    "address": "arion.allowed.org",
+    "port": 6000,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-17 08:28",
+    "count": "NULL",
     "convert": false
   }
 ]
