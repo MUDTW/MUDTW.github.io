@@ -19,7 +19,7 @@
     "port": 7000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "7",
     "convert": false
   },
@@ -31,7 +31,7 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "31",
     "convert": false
   },
@@ -43,7 +43,7 @@
     "port": 4848,
     "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "NULL",
     "convert": false
   },
@@ -55,8 +55,8 @@
     "port": 7788,
     "regex": "目前有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "122",
+    "update": "2021-07-21 04:13",
+    "count": "121",
     "convert": false
   },
   {
@@ -67,8 +67,20 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "18",
+    "convert": false
+  },
+  {
+    "zh_name": "霹靂爭雄錄",
+    "en_name": "Pili",
+    "encoding": "big5",
+    "address": "220.135.157.149",
+    "port": 9999,
+    "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
+    "status": true,
+    "update": "2021-07-21 04:13",
+    "count": "19",
     "convert": false
   },
   {
@@ -79,7 +91,7 @@
     "port": 6789,
     "regex": "目前已經有 (\\d+) 個原始人",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "4",
     "convert": false
   },
@@ -91,20 +103,8 @@
     "port": 8000,
     "regex": "共有: (\\d+) 個玩家",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "71",
-    "convert": false
-  },
-  {
-    "zh_name": "霹靂爭雄錄",
-    "en_name": "Pili",
-    "encoding": "big5",
-    "address": "220.135.157.149",
-    "port": 9999,
-    "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
-    "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "18",
     "convert": false
   },
   {
@@ -115,8 +115,20 @@
     "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "渾沌幻世",
+    "en_name": "CHAOS",
+    "encoding": "big5",
+    "address": "54.238.179.235",
+    "port": 5555,
+    "regex": "現在有 (\\d+) 名勇者",
+    "status": true,
+    "update": "2021-07-21 04:13",
+    "count": "2",
     "convert": false
   },
   {
@@ -128,8 +140,8 @@
     "regex": "(\\d+) 位玩家在線上",
     "url": "http://catworld.muds.tw/web",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "141",
+    "update": "2021-07-21 04:13",
+    "count": "132",
     "convert": false
   },
   {
@@ -140,20 +152,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "41",
-    "convert": false
-  },
-  {
-    "zh_name": "渾沌幻世",
-    "en_name": "CHAOS",
-    "encoding": "big5",
-    "address": "54.238.179.235",
-    "port": 5555,
-    "regex": "現在有 (\\d+) 名勇者",
-    "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "2",
+    "update": "2021-07-21 04:13",
+    "count": "43",
     "convert": false
   },
   {
@@ -164,7 +164,7 @@
     "port": 7777,
     "regex": false,
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "NULL",
     "convert": false
   },
@@ -176,20 +176,8 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "46",
-    "convert": false
-  },
-  {
-    "zh_name": "失落的國度",
-    "en_name": "DOOM",
-    "encoding": "big5",
-    "address": "doom.twmuds.com",
-    "port": 4000,
-    "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
-    "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "59",
+    "update": "2021-07-21 04:13",
+    "count": "45",
     "convert": false
   },
   {
@@ -200,20 +188,20 @@
     "port": 6666,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "181",
     "convert": false
   },
   {
-    "zh_name": "聖殿英雄傳說",
-    "en_name": "Sanctuary",
+    "zh_name": "失落的國度",
+    "en_name": "DOOM",
     "encoding": "big5",
-    "address": "sanc.game.tw",
-    "port": 4002,
-    "regex": "人數/上限\\[(\\d+)/.+\\]",
+    "address": "doom.twmuds.com",
+    "port": 4000,
+    "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "105",
+    "update": "2021-07-21 04:13",
+    "count": "60",
     "convert": false
   },
   {
@@ -224,20 +212,20 @@
     "port": 8000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "127",
+    "update": "2021-07-21 04:13",
+    "count": "128",
     "convert": false
   },
   {
-    "zh_name": "虛幻時空",
-    "en_name": "Illusory of Time",
+    "zh_name": "聖殿英雄傳說",
+    "en_name": "Sanctuary",
     "encoding": "big5",
-    "address": "it.muds.net",
-    "port": 7000,
-    "regex": false,
+    "address": "sanc.game.tw",
+    "port": 4002,
+    "regex": "人數/上限\\[(\\d+)/.+\\]",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "NULL",
+    "update": "2021-07-21 04:13",
+    "count": "105",
     "convert": false
   },
   {
@@ -248,20 +236,20 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "18",
     "convert": false
   },
   {
-    "zh_name": "狂想空間",
-    "en_name": "Fantasy Space",
+    "zh_name": "虛幻時空",
+    "en_name": "Illusory of Time",
     "encoding": "big5",
-    "address": "fs.twkang.net",
-    "port": 5555,
-    "regex": "線上 (\\d+)",
+    "address": "it.muds.net",
+    "port": 7000,
+    "regex": false,
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "0",
+    "update": "2021-07-21 04:13",
+    "count": "NULL",
     "convert": false
   },
   {
@@ -272,8 +260,20 @@
     "port": 4000,
     "regex": "目前線上共有 (\\d+) 位英雄豪傑",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "463",
+    "update": "2021-07-21 04:13",
+    "count": "412",
+    "convert": false
+  },
+  {
+    "zh_name": "狂想空間",
+    "en_name": "Fantasy Space",
+    "encoding": "big5",
+    "address": "fs.twkang.net",
+    "port": 5555,
+    "regex": "線上 (\\d+)",
+    "status": true,
+    "update": "2021-07-21 04:13",
+    "count": "0",
     "convert": false
   },
   {
@@ -284,19 +284,7 @@
     "port": 4040,
     "regex": false,
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "龍域傳奇",
-    "en_name": "The DragonRealm (DR3000)",
-    "encoding": "big5",
-    "address": "dragonrealms.co",
-    "port": 3000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "NULL",
     "convert": false
   },
@@ -308,7 +296,19 @@
     "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "龍域傳奇",
+    "en_name": "The DragonRealm (DR3000)",
+    "encoding": "big5",
+    "address": "dragonrealms.co",
+    "port": 3000,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-21 04:13",
     "count": "NULL",
     "convert": false
   },
@@ -320,21 +320,9 @@
     "port": 3838,
     "regex": "目前共有(.+)人在此遙遠的三國歪傳之降龍伏虎奮鬥",
     "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "82",
+    "update": "2021-07-21 04:13",
+    "count": "83",
     "convert": true
-  },
-  {
-    "zh_name": "狂搞空間",
-    "en_name": "Crazy Space",
-    "encoding": "big5",
-    "address": "crazyspace.twmuds.com",
-    "port": 6000,
-    "regex": "目前共有 (\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-07-21 03:33",
-    "count": "47",
-    "convert": false
   },
   {
     "zh_name": "亂世群雄",
@@ -345,7 +333,19 @@
     "timeout": 10,
     "regex": "(\\d+) 位英雄在亂世之中",
     "status": true,
-    "update": "2021-07-21 03:33",
+    "update": "2021-07-21 04:13",
     "count": "91"
+  },
+  {
+    "zh_name": "狂搞空間",
+    "en_name": "Crazy Space",
+    "encoding": "big5",
+    "address": "crazyspace.twmuds.com",
+    "port": 6000,
+    "regex": "目前共有 (\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-07-21 04:13",
+    "count": "47",
+    "convert": false
   }
 ]
