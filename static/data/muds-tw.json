@@ -19,7 +19,7 @@
     "port": 7000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "10",
     "convert": false
   },
@@ -31,8 +31,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "44",
+    "update": "2021-07-24 04:09",
+    "count": "43",
     "convert": false
   },
   {
@@ -43,8 +43,8 @@
     "port": 8000,
     "regex": "共有: (\\d+) 個玩家",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "64",
+    "update": "2021-07-24 04:09",
+    "count": "65",
     "convert": false
   },
   {
@@ -55,32 +55,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "16",
-    "convert": false
-  },
-  {
-    "zh_name": "時空之門",
-    "en_name": "The Ages",
-    "encoding": "big5",
-    "address": "mud.slzzp.net",
-    "port": 4848,
-    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "原始物語",
-    "en_name": "A Primitive Story",
-    "encoding": "big5",
-    "address": "psmud.ddns.net",
-    "port": 6789,
-    "regex": "目前已經有 (\\d+) 個原始人",
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "2",
     "convert": false
   },
   {
@@ -91,8 +67,20 @@
     "port": 7788,
     "regex": "目前有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "117",
+    "update": "2021-07-24 04:09",
+    "count": "116",
+    "convert": false
+  },
+  {
+    "zh_name": "時空之門",
+    "en_name": "The Ages",
+    "encoding": "big5",
+    "address": "mud.slzzp.net",
+    "port": 4848,
+    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
+    "status": true,
+    "update": "2021-07-24 04:09",
+    "count": "NULL",
     "convert": false
   },
   {
@@ -103,8 +91,32 @@
     "port": 9999,
     "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "19",
+    "convert": false
+  },
+  {
+    "zh_name": "原始物語",
+    "en_name": "A Primitive Story",
+    "encoding": "big5",
+    "address": "psmud.ddns.net",
+    "port": 6789,
+    "regex": "目前已經有 (\\d+) 個原始人",
+    "status": true,
+    "update": "2021-07-24 04:09",
+    "count": "2",
+    "convert": false
+  },
+  {
+    "zh_name": "渾沌幻世",
+    "en_name": "CHAOS",
+    "encoding": "big5",
+    "address": "54.238.179.235",
+    "port": 5555,
+    "regex": "現在有 (\\d+) 名勇者",
+    "status": true,
+    "update": "2021-07-24 04:09",
+    "count": "4",
     "convert": false
   },
   {
@@ -115,8 +127,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "34",
+    "update": "2021-07-24 04:09",
+    "count": "33",
     "convert": false
   },
   {
@@ -127,7 +139,19 @@
     "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "四度空間",
+    "en_name": "Void",
+    "encoding": "big5",
+    "address": "220.133.42.198",
+    "port": 7777,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-24 04:09",
     "count": "NULL",
     "convert": false
   },
@@ -139,8 +163,8 @@
     "port": 4000,
     "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "57",
+    "update": "2021-07-24 04:09",
+    "count": "59",
     "convert": false
   },
   {
@@ -151,32 +175,8 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "46",
-    "convert": false
-  },
-  {
-    "zh_name": "渾沌幻世",
-    "en_name": "CHAOS",
-    "encoding": "big5",
-    "address": "54.238.179.235",
-    "port": 5555,
-    "regex": "現在有 (\\d+) 名勇者",
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "4",
-    "convert": false
-  },
-  {
-    "zh_name": "四度空間",
-    "en_name": "Void",
-    "encoding": "big5",
-    "address": "220.133.42.198",
-    "port": 7777,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "NULL",
     "convert": false
   },
   {
@@ -187,7 +187,7 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "16",
     "convert": false
   },
@@ -200,8 +200,8 @@
     "regex": "(\\d+) 位玩家在線上",
     "url": "http://catworld.muds.tw/web",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "152",
+    "update": "2021-07-24 04:09",
+    "count": "158",
     "convert": false
   },
   {
@@ -212,7 +212,7 @@
     "port": 7000,
     "regex": false,
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "NULL",
     "convert": false
   },
@@ -224,7 +224,7 @@
     "port": 6666,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "182",
     "convert": false
   },
@@ -236,8 +236,8 @@
     "port": 5555,
     "regex": "線上 (\\d+)",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "9",
+    "update": "2021-07-24 04:09",
+    "count": "12",
     "convert": false
   },
   {
@@ -248,8 +248,8 @@
     "port": 4002,
     "regex": "人數/上限\\[(\\d+)/.+\\]",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "118",
+    "update": "2021-07-24 04:09",
+    "count": "117",
     "convert": false
   },
   {
@@ -260,8 +260,8 @@
     "port": 8000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "132",
+    "update": "2021-07-24 04:09",
+    "count": "131",
     "convert": false
   },
   {
@@ -272,8 +272,8 @@
     "port": 4000,
     "regex": "目前線上共有 (\\d+) 位英雄豪傑",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "432",
+    "update": "2021-07-24 04:09",
+    "count": "363",
     "convert": false
   },
   {
@@ -284,21 +284,9 @@
     "port": 4040,
     "regex": false,
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "NULL",
     "convert": false
-  },
-  {
-    "zh_name": "亂世群雄",
-    "en_name": "Heroes Story",
-    "encoding": "big5",
-    "address": "1.34.119.71",
-    "port": 7878,
-    "timeout": 10,
-    "regex": "(\\d+) 位英雄在亂世之中",
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "106"
   },
   {
     "zh_name": "亞雷恩傳奇",
@@ -308,7 +296,7 @@
     "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "NULL",
     "convert": false
   },
@@ -320,20 +308,8 @@
     "port": 3000,
     "regex": false,
     "status": true,
-    "update": "2021-07-24 03:33",
+    "update": "2021-07-24 04:09",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "狂搞空間",
-    "en_name": "Crazy Space",
-    "encoding": "big5",
-    "address": "crazyspace.twmuds.com",
-    "port": 6000,
-    "regex": "目前共有 (\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "61",
     "convert": false
   },
   {
@@ -344,8 +320,32 @@
     "port": 3838,
     "regex": "目前共有(.+)人在此遙遠的三國歪傳之降龍伏虎奮鬥",
     "status": true,
-    "update": "2021-07-24 03:33",
-    "count": "67",
+    "update": "2021-07-24 04:09",
+    "count": "66",
     "convert": true
+  },
+  {
+    "zh_name": "狂搞空間",
+    "en_name": "Crazy Space",
+    "encoding": "big5",
+    "address": "crazyspace.twmuds.com",
+    "port": 6000,
+    "regex": "目前共有 (\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-07-24 04:09",
+    "count": "61",
+    "convert": false
+  },
+  {
+    "zh_name": "亂世群雄",
+    "en_name": "Heroes Story",
+    "encoding": "big5",
+    "address": "1.34.119.71",
+    "port": 7878,
+    "timeout": 10,
+    "regex": "(\\d+) 位英雄在亂世之中",
+    "status": true,
+    "update": "2021-07-24 04:09",
+    "count": "106"
   }
 ]
