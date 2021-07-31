@@ -36,18 +36,6 @@
     "convert": false
   },
   {
-    "zh_name": "海洋之江湖風雲錄",
-    "en_name": "HY.JHFY",
-    "encoding": "gbk",
-    "address": "hy1.jhfy.org",
-    "port": 1863,
-    "regex": false,
-    "status": false,
-    "update": "",
-    "count": "NULL",
-    "convert": false
-  },
-  {
     "zh_name": "一世風雲",
     "en_name": "FY3",
     "encoding": "gbk",
@@ -84,6 +72,18 @@
     "convert": false
   },
   {
+    "zh_name": "海洋之江湖風雲錄",
+    "en_name": "HY.JHFY",
+    "encoding": "gbk",
+    "address": "hy1.jhfy.org",
+    "port": 1863,
+    "regex": false,
+    "status": false,
+    "update": "",
+    "count": "NULL",
+    "convert": false
+  },
+  {
     "zh_name": "古龍群俠",
     "en_name": "FY.GLQX",
     "encoding": "gbk",
@@ -96,14 +96,14 @@
     "convert": false
   },
   {
-    "zh_name": "夕陽再現之笑傲江湖",
-    "en_name": "XYZX.XAJH",
+    "zh_name": "天涯",
+    "en_name": "TianYa",
     "encoding": "gbk",
-    "address": "193.112.104.91",
-    "port": 5555,
+    "address": "58.248.89.13",
+    "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -115,43 +115,19 @@
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
   {
-    "zh_name": "天涯",
-    "en_name": "TianYa",
+    "zh_name": "夕陽再現之笑傲江湖",
+    "en_name": "XYZX.XAJH",
     "encoding": "gbk",
-    "address": "58.248.89.13",
-    "port": 4000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "金庸世界",
-    "en_name": "JYSJ",
-    "encoding": "gbk",
-    "address": "115.28.218.91",
+    "address": "193.112.104.91",
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "終極地獄",
-    "en_name": "HELL",
-    "encoding": "gbk",
-    "address": "220.165.145.126",
-    "port": 3000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -163,7 +139,31 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "終極地獄",
+    "en_name": "HELL",
+    "encoding": "gbk",
+    "address": "220.165.145.126",
+    "port": 3000,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "金庸世界",
+    "en_name": "JYSJ",
+    "encoding": "gbk",
+    "address": "115.28.218.91",
+    "port": 5555,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -175,32 +175,8 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "紅塵之中華英雄",
-    "en_name": "HC.ZHYX",
-    "encoding": "gbk",
-    "address": "221.226.96.186",
-    "port": 5555,
-    "regex": "(\\d+) 位玩家在线上",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "378",
-    "convert": false
-  },
-  {
-    "zh_name": "妖神之爭",
-    "en_name": "YSZZ",
-    "encoding": "gbk",
-    "address": "175.27.187.179",
-    "port": 8000,
-    "regex": "(\\d+) 位玩家在线上",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "650",
     "convert": false
   },
   {
@@ -211,9 +187,33 @@
     "port": 8899,
     "regex": "(.*)位玩家",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "1745",
+    "update": "2021-07-31 09:37",
+    "count": "1750",
     "convert": true
+  },
+  {
+    "zh_name": "妖神之爭",
+    "en_name": "YSZZ",
+    "encoding": "gbk",
+    "address": "175.27.187.179",
+    "port": 8000,
+    "regex": "(\\d+) 位玩家在线上",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "655",
+    "convert": false
+  },
+  {
+    "zh_name": "紅塵之中華英雄",
+    "en_name": "HC.ZHYX",
+    "encoding": "gbk",
+    "address": "221.226.96.186",
+    "port": 5555,
+    "regex": "(\\d+) 位玩家在线上",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "378",
+    "convert": false
   },
   {
     "zh_name": "江南俠客行",
@@ -223,9 +223,21 @@
     "port": 5555,
     "regex": "目前共有 (\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "5",
     "convert": false
+  },
+  {
+    "zh_name": "泥巴世界",
+    "en_name": "52MUD",
+    "encoding": "gbk",
+    "address": "61.160.23.27",
+    "port": 66,
+    "regex": "(.*) 位江湖儿女正在游戏",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "6981",
+    "convert": true
   },
   {
     "zh_name": "書劍春秋",
@@ -235,8 +247,8 @@
     "port": 5555,
     "regex": "共有(.*)位玩家",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "540",
+    "update": "2021-07-31 09:37",
+    "count": "553",
     "convert": true
   },
   {
@@ -247,7 +259,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -259,9 +271,21 @@
     "port": 5555,
     "regex": "、(.*)位玩家，",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "1461",
+    "update": "2021-07-31 09:37",
+    "count": "1464",
     "convert": true
+  },
+  {
+    "zh_name": "夢回西遊",
+    "en_name": "MHXY",
+    "encoding": "gbk",
+    "address": "202.103.21.247",
+    "port": 8888,
+    "regex": "目前共有\\d+位巫师、(\\d+)位玩家",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "64",
+    "convert": false
   },
   {
     "zh_name": "書劍世纪",
@@ -271,8 +295,20 @@
     "port": 5555,
     "regex": "共有(.*)位玩家",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "1",
+    "convert": true
+  },
+  {
+    "zh_name": "仙侣情緣",
+    "en_name": "XLQY",
+    "encoding": "gbk",
+    "address": "112.124.8.59",
+    "port": 6666,
+    "regex": "、(.*)位玩家，",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "94",
     "convert": true
   },
   {
@@ -283,20 +319,8 @@
     "port": 9999,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "夢回西遊",
-    "en_name": "MHXY",
-    "encoding": "gbk",
-    "address": "202.103.21.247",
-    "port": 8888,
-    "regex": "目前共有\\d+位巫师、(\\d+)位玩家",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "59",
     "convert": false
   },
   {
@@ -307,21 +331,9 @@
     "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
-  },
-  {
-    "zh_name": "仙侣情緣",
-    "en_name": "XLQY",
-    "encoding": "gbk",
-    "address": "112.124.8.59",
-    "port": 6666,
-    "regex": "、(.*)位玩家，",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "77",
-    "convert": true
   },
   {
     "zh_name": "西游記聯合站",
@@ -331,21 +343,9 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
-  },
-  {
-    "zh_name": "泥巴世界",
-    "en_name": "52MUD",
-    "encoding": "gbk",
-    "address": "61.160.23.27",
-    "port": 66,
-    "regex": "(.*) 位江湖儿女正在游戏",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "6984",
-    "convert": true
   },
   {
     "zh_name": "北大俠客行",
@@ -355,8 +355,8 @@
     "port": 8080,
     "regex": "目前共有 (\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "496",
+    "update": "2021-07-31 09:37",
+    "count": "495",
     "convert": false
   },
   {
@@ -367,7 +367,7 @@
     "port": 3166,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -379,8 +379,8 @@
     "port": 1212,
     "regex": "目前在线数目：(.*)人",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "61",
+    "update": "2021-07-31 09:37",
+    "count": "62",
     "convert": true
   },
   {
@@ -391,7 +391,7 @@
     "port": 4000,
     "regex": "天下无敌目前共有(\\d+)位玩家游戏中",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -403,7 +403,7 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "395",
     "convert": false
   },
@@ -415,20 +415,20 @@
     "port": 13103,
     "regex": "、(.+)位玩家，",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "0",
     "convert": true
   },
   {
-    "zh_name": "炎黄武魂",
-    "en_name": "YHWH",
+    "zh_name": "西游記總站",
+    "en_name": "A Journey to the West",
     "encoding": "gbk",
-    "address": "x.mud.ren",
-    "port": 5555,
-    "regex": "(\\d+) 位玩家在线上",
+    "address": "xiyouji.org",
+    "port": 6666,
+    "regex": "目前共有(\\d+)位玩家在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "6",
+    "update": "2021-07-31 09:37",
+    "count": "576",
     "convert": false
   },
   {
@@ -439,8 +439,20 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "炎黄武魂",
+    "en_name": "YHWH",
+    "encoding": "gbk",
+    "address": "x.mud.ren",
+    "port": 5555,
+    "regex": "(\\d+) 位玩家在线上",
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "6",
     "convert": false
   },
   {
@@ -451,20 +463,8 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "西游記總站",
-    "en_name": "A Journey to the West",
-    "encoding": "gbk",
-    "address": "xiyouji.org",
-    "port": 6666,
-    "regex": "目前共有(\\d+)位玩家在线上",
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "577",
     "convert": false
   },
   {
@@ -475,31 +475,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "風雲诀",
-    "en_name": "FY4",
-    "encoding": "gbk",
-    "address": "fy4.vmud.com",
-    "port": 30004,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "風雲泥潭",
-    "en_name": "FY2018",
-    "encoding": "gbk",
-    "address": "www.fengyunmud.top",
-    "port": 6000,
-    "regex": false,
-    "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "NULL",
     "convert": false
   },
@@ -511,8 +487,32 @@
     "port": 8888,
     "regex": "(\\d+) 位江湖豪客在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
+    "update": "2021-07-31 09:37",
     "count": "319",
+    "convert": false
+  },
+  {
+    "zh_name": "風雲泥潭",
+    "en_name": "FY2018",
+    "encoding": "gbk",
+    "address": "www.fengyunmud.top",
+    "port": 6000,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "風雲诀",
+    "en_name": "FY4",
+    "encoding": "gbk",
+    "address": "fy4.vmud.com",
+    "port": 30004,
+    "regex": false,
+    "status": true,
+    "update": "2021-07-31 09:37",
+    "count": "NULL",
     "convert": false
   },
   {
@@ -523,8 +523,8 @@
     "port": 6666,
     "regex": "(\\d+)位玩家在线上",
     "status": true,
-    "update": "2021-07-31 08:27",
-    "count": "429",
+    "update": "2021-07-31 09:37",
+    "count": "432",
     "convert": false
   }
 ]
