@@ -31,7 +31,7 @@
     "port": 7000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "12",
     "convert": false
   },
@@ -43,44 +43,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "34",
-    "convert": false
-  },
-  {
-    "zh_name": "時空之門",
-    "en_name": "The Ages",
-    "encoding": "big5",
-    "address": "mud.slzzp.net",
-    "port": 4848,
-    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "原始物語",
-    "en_name": "A Primitive Story",
-    "encoding": "big5",
-    "address": "psmud.ddns.net",
-    "port": 6789,
-    "regex": "目前已經有 (\\d+) 個原始人",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "4",
-    "convert": false
-  },
-  {
-    "zh_name": "重生的世界",
-    "en_name": "Revival World (RW)",
-    "encoding": "big5",
-    "address": "mud.revivalworld.org",
-    "port": 4000,
-    "regex": "(\\d+) 位玩家",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "15",
     "convert": false
   },
   {
@@ -91,43 +55,19 @@
     "port": 7788,
     "regex": "目前有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "130",
+    "update": "2021-09-02 04:37",
+    "count": "131",
     "convert": false
   },
   {
-    "zh_name": "渾沌幻世",
-    "en_name": "CHAOS",
+    "zh_name": "時空之門",
+    "en_name": "The Ages",
     "encoding": "big5",
-    "address": "54.238.179.235",
-    "port": 5555,
-    "regex": "現在有 (\\d+) 名勇者",
+    "address": "mud.slzzp.net",
+    "port": 4848,
+    "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "2",
-    "convert": false
-  },
-  {
-    "zh_name": "東方故事二天朝遊俠錄",
-    "en_name": "The Celestial Empire",
-    "encoding": "big5",
-    "address": "us.muds.net",
-    "port": 4000,
-    "regex": "(\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "21",
-    "convert": false
-  },
-  {
-    "zh_name": "四度空間",
-    "en_name": "Void",
-    "encoding": "big5",
-    "address": "220.133.42.198",
-    "port": 7777,
-    "regex": false,
-    "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "NULL",
     "convert": false
   },
@@ -139,55 +79,7 @@
     "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "五星物語",
-    "en_name": "The Five Star Stories",
-    "encoding": "big5",
-    "address": "fss.twcos.com",
-    "port": 5000,
-    "regex": "(\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "37",
-    "convert": false
-  },
-  {
-    "zh_name": "聖殿英雄傳說",
-    "en_name": "Sanctuary",
-    "encoding": "big5",
-    "address": "sanc.game.tw",
-    "port": 4002,
-    "regex": "人數/上限\\[(\\d+)/.+\\]",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "77",
-    "convert": false
-  },
-  {
-    "zh_name": "風雲再起",
-    "en_name": "Wind Cloud",
-    "encoding": "big5",
-    "address": "windcloud.twmuds.com",
-    "port": 8000,
-    "regex": "目前共有 (\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "107",
-    "convert": false
-  },
-  {
-    "zh_name": "亞雷恩傳奇",
-    "en_name": "The Sage of Arion",
-    "encoding": "big5",
-    "address": "arion.allowed.org",
-    "port": 6000,
-    "regex": false,
-    "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "NULL",
     "convert": false
   },
@@ -199,8 +91,116 @@
     "port": 9999,
     "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "17",
+    "convert": false
+  },
+  {
+    "zh_name": "重生的世界",
+    "en_name": "Revival World (RW)",
+    "encoding": "big5",
+    "address": "mud.revivalworld.org",
+    "port": 4000,
+    "regex": "(\\d+) 位玩家",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "15",
+    "convert": false
+  },
+  {
+    "zh_name": "原始物語",
+    "en_name": "A Primitive Story",
+    "encoding": "big5",
+    "address": "psmud.ddns.net",
+    "port": 6789,
+    "regex": "目前已經有 (\\d+) 個原始人",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "4",
+    "convert": false
+  },
+  {
+    "zh_name": "四度空間",
+    "en_name": "Void",
+    "encoding": "big5",
+    "address": "220.133.42.198",
+    "port": 7777,
+    "regex": false,
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "渾沌幻世",
+    "en_name": "CHAOS",
+    "encoding": "big5",
+    "address": "54.238.179.235",
+    "port": 5555,
+    "regex": "現在有 (\\d+) 名勇者",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "2",
+    "convert": false
+  },
+  {
+    "zh_name": "東方故事二天朝遊俠錄",
+    "en_name": "The Celestial Empire",
+    "encoding": "big5",
+    "address": "us.muds.net",
+    "port": 4000,
+    "regex": "(\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "21",
+    "convert": false
+  },
+  {
+    "zh_name": "五星物語",
+    "en_name": "The Five Star Stories",
+    "encoding": "big5",
+    "address": "fss.twcos.com",
+    "port": 5000,
+    "regex": "(\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "37",
+    "convert": false
+  },
+  {
+    "zh_name": "聖殿英雄傳說",
+    "en_name": "Sanctuary",
+    "encoding": "big5",
+    "address": "sanc.game.tw",
+    "port": 4002,
+    "regex": "人數/上限\\[(\\d+)/.+\\]",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "77",
+    "convert": false
+  },
+  {
+    "zh_name": "亞雷恩傳奇",
+    "en_name": "The Sage of Arion",
+    "encoding": "big5",
+    "address": "arion.allowed.org",
+    "port": 6000,
+    "regex": false,
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "風雲再起",
+    "en_name": "Wind Cloud",
+    "encoding": "big5",
+    "address": "windcloud.twmuds.com",
+    "port": 8000,
+    "regex": "目前共有 (\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "107",
     "convert": false
   },
   {
@@ -211,7 +211,7 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "15",
     "convert": false
   },
@@ -223,7 +223,7 @@
     "port": 7000,
     "regex": false,
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "NULL",
     "convert": false
   },
@@ -235,8 +235,8 @@
     "port": 4000,
     "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "96",
+    "update": "2021-09-02 04:37",
+    "count": "97",
     "convert": false
   },
   {
@@ -248,8 +248,8 @@
     "regex": "(\\d+) 位玩家在線上",
     "url": "http://catworld.muds.tw/web",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "130",
+    "update": "2021-09-02 04:37",
+    "count": "120",
     "convert": false
   },
   {
@@ -260,7 +260,7 @@
     "port": 6666,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "151",
     "convert": false
   },
@@ -272,8 +272,8 @@
     "port": 4000,
     "regex": "目前線上共有 (\\d+) 位英雄豪傑",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "466",
+    "update": "2021-09-02 04:37",
+    "count": "467",
     "convert": false
   },
   {
@@ -284,8 +284,8 @@
     "port": 5555,
     "regex": "線上 (\\d+)",
     "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "11",
+    "update": "2021-09-02 04:37",
+    "count": "10",
     "convert": false
   },
   {
@@ -296,7 +296,7 @@
     "port": 4040,
     "regex": false,
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "NULL",
     "convert": false
   },
@@ -308,20 +308,8 @@
     "port": 3000,
     "regex": false,
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "狂搞空間",
-    "en_name": "Crazy Space",
-    "encoding": "big5",
-    "address": "crazyspace.twmuds.com",
-    "port": 6000,
-    "regex": "目前共有 (\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2021-09-02 04:10",
-    "count": "43",
     "convert": false
   },
   {
@@ -332,9 +320,21 @@
     "port": 3838,
     "regex": "目前共有(.+)人在此遙遠的三國歪傳之降龍伏虎奮鬥",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "66",
     "convert": true
+  },
+  {
+    "zh_name": "狂搞空間",
+    "en_name": "Crazy Space",
+    "encoding": "big5",
+    "address": "crazyspace.twmuds.com",
+    "port": 6000,
+    "regex": "目前共有 (\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2021-09-02 04:37",
+    "count": "43",
+    "convert": false
   },
   {
     "zh_name": "亂世群雄",
@@ -345,7 +345,7 @@
     "timeout": 10,
     "regex": "(\\d+) 位英雄在亂世之中",
     "status": true,
-    "update": "2021-09-02 04:10",
+    "update": "2021-09-02 04:37",
     "count": "126"
   }
 ]
