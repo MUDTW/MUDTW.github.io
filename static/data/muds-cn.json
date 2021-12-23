@@ -120,14 +120,14 @@
     "convert": false
   },
   {
-    "zh_name": "夕陽再現之笑傲江湖",
-    "en_name": "XYZX.XAJH",
+    "zh_name": "天涯",
+    "en_name": "TianYa",
     "encoding": "gbk",
-    "address": "193.112.104.91",
-    "port": 5555,
+    "address": "58.248.89.13",
+    "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -139,55 +139,19 @@
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
   {
-    "zh_name": "天涯",
-    "en_name": "TianYa",
+    "zh_name": "夕陽再現之笑傲江湖",
+    "en_name": "XYZX.XAJH",
     "encoding": "gbk",
-    "address": "58.248.89.13",
-    "port": 4000,
-    "regex": false,
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "金庸世界",
-    "en_name": "JYSJ",
-    "encoding": "gbk",
-    "address": "115.28.218.91",
+    "address": "193.112.104.91",
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "書劍世纪",
-    "en_name": "World of Shujian",
-    "encoding": "gbk",
-    "address": "60.206.15.60",
-    "port": 5555,
-    "regex": "共有(.*)位玩家",
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "0",
-    "convert": true
-  },
-  {
-    "zh_name": "終極地獄",
-    "en_name": "HELL",
-    "encoding": "gbk",
-    "address": "220.165.145.126",
-    "port": 3000,
-    "regex": false,
-    "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -199,7 +163,43 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "終極地獄",
+    "en_name": "HELL",
+    "encoding": "gbk",
+    "address": "220.165.145.126",
+    "port": 3000,
+    "regex": false,
+    "status": true,
+    "update": "2021-12-24 07:40",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "書劍世纪",
+    "en_name": "World of Shujian",
+    "encoding": "gbk",
+    "address": "60.206.15.60",
+    "port": 5555,
+    "regex": "共有(.*)位玩家",
+    "status": true,
+    "update": "2021-12-24 07:40",
+    "count": "0",
+    "convert": true
+  },
+  {
+    "zh_name": "金庸世界",
+    "en_name": "JYSJ",
+    "encoding": "gbk",
+    "address": "115.28.218.91",
+    "port": 5555,
+    "regex": false,
+    "status": true,
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -211,7 +211,7 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -223,8 +223,20 @@
     "port": 8000,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "588",
+    "update": "2021-12-24 07:40",
+    "count": "565",
+    "convert": false
+  },
+  {
+    "zh_name": "紅塵之中華英雄",
+    "en_name": "HC.ZHYX",
+    "encoding": "gbk",
+    "address": "221.226.96.186",
+    "port": 5555,
+    "regex": "(\\d+) 位玩家在线上",
+    "status": true,
+    "update": "2021-12-24 07:40",
+    "count": "405",
     "convert": false
   },
   {
@@ -235,32 +247,8 @@
     "port": 8899,
     "regex": "(.*)位玩家",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "1794",
-    "convert": true
-  },
-  {
-    "zh_name": "紅塵之中華英雄",
-    "en_name": "HC.ZHYX",
-    "encoding": "gbk",
-    "address": "221.226.96.186",
-    "port": 5555,
-    "regex": "(\\d+) 位玩家在线上",
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "406",
-    "convert": false
-  },
-  {
-    "zh_name": "書劍春秋",
-    "en_name": "SJCQ",
-    "encoding": "gbk",
-    "address": "47.110.8.228",
-    "port": 5555,
-    "regex": "共有(.*)位玩家",
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "715",
     "convert": true
   },
   {
@@ -271,8 +259,20 @@
     "port": 66,
     "regex": "(.*) 位江湖儿女正在游戏",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "16994",
+    "convert": true
+  },
+  {
+    "zh_name": "書劍春秋",
+    "en_name": "SJCQ",
+    "encoding": "gbk",
+    "address": "47.110.8.228",
+    "port": 5555,
+    "regex": "共有(.*)位玩家",
+    "status": true,
+    "update": "2021-12-24 07:40",
+    "count": "718",
     "convert": true
   },
   {
@@ -283,7 +283,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -295,8 +295,8 @@
     "port": 5555,
     "regex": "、(.*)位玩家，",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "1530",
+    "update": "2021-12-24 07:40",
+    "count": "1531",
     "convert": true
   },
   {
@@ -307,7 +307,7 @@
     "port": 8888,
     "regex": "目前共有\\d+位巫师、(\\d+)位玩家",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "35",
     "convert": false
   },
@@ -319,21 +319,9 @@
     "port": 6666,
     "regex": "、(.*)位玩家，",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "152",
+    "update": "2021-12-24 07:40",
+    "count": "139",
     "convert": true
-  },
-  {
-    "zh_name": "西游記聯合站",
-    "en_name": "A Journey to the West",
-    "encoding": "gbk",
-    "address": "tel.xyj.cn",
-    "port": 6666,
-    "regex": false,
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "NULL",
-    "convert": false
   },
   {
     "zh_name": "江湖",
@@ -343,7 +331,19 @@
     "port": 9999,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "西游記聯合站",
+    "en_name": "A Journey to the West",
+    "encoding": "gbk",
+    "address": "tel.xyj.cn",
+    "port": 6666,
+    "regex": false,
+    "status": true,
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -355,7 +355,7 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -367,7 +367,7 @@
     "port": 1212,
     "regex": "目前在线数目：(.*)人",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "0",
     "convert": true
   },
@@ -379,8 +379,8 @@
     "port": 8080,
     "regex": "目前共有 (\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "558",
+    "update": "2021-12-24 07:40",
+    "count": "570",
     "convert": false
   },
   {
@@ -391,7 +391,7 @@
     "port": 4000,
     "regex": "天下无敌目前共有(\\d+)位玩家游戏中",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -403,8 +403,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "382",
+    "update": "2021-12-24 07:40",
+    "count": "381",
     "convert": false
   },
   {
@@ -415,7 +415,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -427,7 +427,7 @@
     "port": 13103,
     "regex": "、(.+)位玩家，",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "0",
     "convert": true
   },
@@ -439,7 +439,7 @@
     "port": 3166,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -451,7 +451,19 @@
     "port": 30004,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "風雲再現",
+    "en_name": "FYZX",
+    "encoding": "gbk",
+    "address": "mud.fy-vi.cn",
+    "port": 6666,
+    "regex": false,
+    "status": true,
+    "update": "2021-12-24 07:40",
     "count": "NULL",
     "convert": false
   },
@@ -463,20 +475,8 @@
     "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "西游記總站",
-    "en_name": "A Journey to the West",
-    "encoding": "gbk",
-    "address": "xiyouji.org",
-    "port": 6666,
-    "regex": "目前共有(\\d+)位玩家在线上",
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "627",
     "convert": false
   },
   {
@@ -487,20 +487,8 @@
     "port": 5555,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
+    "update": "2021-12-24 07:40",
     "count": "1",
-    "convert": false
-  },
-  {
-    "zh_name": "風雲再現",
-    "en_name": "FYZX",
-    "encoding": "gbk",
-    "address": "mud.fy-vi.cn",
-    "port": 6666,
-    "regex": false,
-    "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "NULL",
     "convert": false
   },
   {
@@ -511,8 +499,8 @@
     "port": 8888,
     "regex": "(\\d+) 位江湖豪客在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "248",
+    "update": "2021-12-24 07:40",
+    "count": "250",
     "convert": false
   },
   {
@@ -523,8 +511,20 @@
     "port": 6666,
     "regex": "(\\d+)位玩家在线上",
     "status": true,
-    "update": "2021-12-24 07:16",
-    "count": "456",
+    "update": "2021-12-24 07:40",
+    "count": "476",
+    "convert": false
+  },
+  {
+    "zh_name": "西游記總站",
+    "en_name": "A Journey to the West",
+    "encoding": "gbk",
+    "address": "xiyouji.org",
+    "port": 6666,
+    "regex": "目前共有(\\d+)位玩家在线上",
+    "status": true,
+    "update": "2021-12-24 07:40",
+    "count": "618",
     "convert": false
   }
 ]
