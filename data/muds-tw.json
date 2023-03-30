@@ -24,14 +24,14 @@
     "convert": false
   },
   {
-    "zh_name": "四度空間",
-    "en_name": "Void",
+    "zh_name": "異想世界",
+    "en_name": "Imaginary world",
     "encoding": "big5",
-    "address": "220.133.42.198",
-    "port": 7777,
-    "regex": false,
+    "address": "43.252.229.138",
+    "port": 4000,
+    "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
     "convert": false
   },
@@ -44,18 +44,18 @@
     "timeout": 10,
     "regex": "(\\d+) 位英雄在亂世之中",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL"
   },
   {
-    "zh_name": "異想世界",
-    "en_name": "Imaginary world",
+    "zh_name": "四度空間",
+    "en_name": "Void",
     "encoding": "big5",
-    "address": "43.252.229.138",
-    "port": 4000,
-    "regex": "(\\d+) 位玩家在線上",
+    "address": "220.133.42.198",
+    "port": 7777,
+    "regex": false,
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
     "convert": false
   },
@@ -67,44 +67,8 @@
     "port": 6000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "再戰江湖",
-    "en_name": "The War In Field",
-    "encoding": "big5",
-    "address": "210.59.236.38",
-    "port": 7788,
-    "regex": "目前有 (\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "84",
-    "convert": false
-  },
-  {
-    "zh_name": "夢幻七域",
-    "en_name": "The Dream of Seven",
-    "encoding": "big5",
-    "address": "210.59.236.38",
-    "port": 7000,
-    "regex": "(\\d+) 位玩家在線上",
-    "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "16",
-    "convert": false
-  },
-  {
-    "zh_name": "渾沌幻世",
-    "en_name": "CHAOS",
-    "encoding": "big5",
-    "address": "54.238.179.235",
-    "port": 5555,
-    "regex": "現在有 (\\d+) 名勇者",
-    "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "7",
     "convert": false
   },
   {
@@ -115,20 +79,32 @@
     "port": 4848,
     "regex": "總共有 (\\d+)/\\d+ 位時空冒險者",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
     "convert": false
   },
   {
-    "zh_name": "霹靂爭雄錄",
-    "en_name": "Pili",
+    "zh_name": "夢幻七域",
+    "en_name": "The Dream of Seven",
     "encoding": "big5",
-    "address": "220.135.157.149",
-    "port": 9999,
-    "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
+    "address": "210.59.236.38",
+    "port": 7000,
+    "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "35",
+    "update": "2023-03-30 09:26",
+    "count": "16",
+    "convert": false
+  },
+  {
+    "zh_name": "再戰江湖",
+    "en_name": "The War In Field",
+    "encoding": "big5",
+    "address": "210.59.236.38",
+    "port": 7788,
+    "regex": "目前有 (\\d+) 位玩家在線上",
+    "status": true,
+    "update": "2023-03-30 09:26",
+    "count": "83",
     "convert": false
   },
   {
@@ -139,20 +115,32 @@
     "port": 6789,
     "regex": "目前已經有 (\\d+) 個原始人",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "28",
     "convert": false
   },
   {
-    "zh_name": "迴風追夢",
-    "en_name": "Dream In Wind (DIW)",
+    "zh_name": "渾沌幻世",
+    "en_name": "CHAOS",
     "encoding": "big5",
-    "address": "54.238.150.137",
-    "port": 4000,
-    "regex": false,
+    "address": "54.238.179.235",
+    "port": 5555,
+    "regex": "現在有 (\\d+) 名勇者",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "NULL",
+    "update": "2023-03-30 09:26",
+    "count": "7",
+    "convert": false
+  },
+  {
+    "zh_name": "霹靂爭雄錄",
+    "en_name": "Pili",
+    "encoding": "big5",
+    "address": "220.135.157.149",
+    "port": 9999,
+    "regex": "共有(\\d+)/\\d+位玩家在霹靂爭雄錄",
+    "status": true,
+    "update": "2023-03-30 09:26",
+    "count": "36",
     "convert": false
   },
   {
@@ -163,8 +151,8 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "35",
+    "update": "2023-03-30 09:26",
+    "count": "34",
     "convert": false
   },
   {
@@ -175,8 +163,20 @@
     "port": 4000,
     "regex": "現在共有 (\\d+) 位玩家正在失落的國度中奮鬥",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "98",
+    "update": "2023-03-30 09:26",
+    "count": "100",
+    "convert": false
+  },
+  {
+    "zh_name": "迴風追夢",
+    "en_name": "Dream In Wind (DIW)",
+    "encoding": "big5",
+    "address": "54.238.150.137",
+    "port": 4000,
+    "regex": false,
+    "status": true,
+    "update": "2023-03-30 09:26",
+    "count": "NULL",
     "convert": false
   },
   {
@@ -187,8 +187,8 @@
     "port": 8000,
     "regex": "目前共有 (\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "133",
+    "update": "2023-03-30 09:26",
+    "count": "131",
     "convert": false
   },
   {
@@ -199,7 +199,7 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "42",
     "convert": false
   },
@@ -211,8 +211,8 @@
     "port": 8000,
     "regex": "共有: (\\d+) 個玩家",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "69",
+    "update": "2023-03-30 09:26",
+    "count": "72",
     "convert": false
   },
   {
@@ -223,7 +223,7 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "14",
     "convert": false
   },
@@ -236,8 +236,8 @@
     "regex": "(\\d+) 位玩家在線上",
     "url": "http://catworld.muds.tw/web",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "103",
+    "update": "2023-03-30 09:26",
+    "count": "102",
     "convert": false
   },
   {
@@ -248,20 +248,8 @@
     "port": 5555,
     "regex": "線上 (\\d+)",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "33",
-    "convert": false
-  },
-  {
-    "zh_name": "龍域傳奇",
-    "en_name": "The DragonRealm (DR3000)",
-    "encoding": "big5",
-    "address": "dragonrealms.co",
-    "port": 3000,
-    "regex": false,
-    "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "NULL",
     "convert": false
   },
   {
@@ -272,7 +260,7 @@
     "port": 7000,
     "regex": false,
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
     "convert": false
   },
@@ -284,8 +272,20 @@
     "port": 5000,
     "regex": "(\\d+) 位玩家",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "14",
+    "convert": false
+  },
+  {
+    "zh_name": "龍域傳奇",
+    "en_name": "The DragonRealm (DR3000)",
+    "encoding": "big5",
+    "address": "dragonrealms.co",
+    "port": 3000,
+    "regex": false,
+    "status": true,
+    "update": "2023-03-30 09:26",
+    "count": "NULL",
     "convert": false
   },
   {
@@ -296,7 +296,7 @@
     "port": 4040,
     "regex": false,
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "NULL",
     "convert": false
   },
@@ -308,8 +308,8 @@
     "port": 4000,
     "regex": "目前線上共有 (\\d+) 位英雄豪傑",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "412",
+    "update": "2023-03-30 09:26",
+    "count": "417",
     "convert": false
   },
   {
@@ -320,7 +320,7 @@
     "port": 6666,
     "regex": "(\\d+) 位玩家在線上",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "110",
     "convert": false
   },
@@ -332,7 +332,7 @@
     "port": 4002,
     "regex": "人數/上限\\[(\\d+)/.+\\]",
     "status": true,
-    "update": "2023-03-30 08:57",
+    "update": "2023-03-30 09:26",
     "count": "70",
     "convert": false
   },
@@ -344,8 +344,8 @@
     "port": 3838,
     "regex": "目前共有(.+)人在此遙遠的三國歪傳之降龍伏虎奮鬥",
     "status": true,
-    "update": "2023-03-30 08:57",
-    "count": "132",
+    "update": "2023-03-30 09:26",
+    "count": "114",
     "convert": true
   }
 ]
