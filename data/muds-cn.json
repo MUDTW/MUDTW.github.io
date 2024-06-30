@@ -55,7 +55,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -67,7 +67,7 @@
     "port": 5555,
     "regex": "、(.*)位玩家，",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "0",
     "convert": true
   },
@@ -79,7 +79,7 @@
     "port": 5555,
     "regex": "目前共有 (\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -91,7 +91,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -103,7 +103,7 @@
     "port": 5555,
     "regex": "共有(.*)位玩家",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "0",
     "convert": true
   },
@@ -115,7 +115,7 @@
     "port": 4000,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -127,7 +127,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -139,7 +139,7 @@
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -151,7 +151,7 @@
     "port": 9999,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -163,7 +163,7 @@
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -175,7 +175,7 @@
     "port": 8080,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -187,7 +187,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -199,7 +199,7 @@
     "port": 8000,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -211,7 +211,7 @@
     "port": 5555,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -223,7 +223,7 @@
     "port": 3000,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -235,7 +235,7 @@
     "port": 8899,
     "regex": "(.*)位玩家",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "0",
     "convert": true
   },
@@ -247,7 +247,7 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -259,8 +259,8 @@
     "port": 66,
     "regex": "(.*) 位江湖儿女正在游戏",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "6807",
+    "update": "2024-07-01 01:13",
+    "count": "6809",
     "convert": true
   },
   {
@@ -271,8 +271,8 @@
     "port": 5555,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "656",
+    "update": "2024-07-01 01:13",
+    "count": "655",
     "convert": false
   },
   {
@@ -283,20 +283,8 @@
     "port": 5555,
     "regex": "共有(.*)位玩家",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "1067",
-    "convert": true
-  },
-  {
-    "zh_name": "西游記之鴻蒙初辟",
-    "en_name": "XYJ.HMCP",
-    "encoding": "gbk",
-    "address": "hucuace.com",
-    "port": 13103,
-    "regex": "、(.+)位玩家，",
-    "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "0",
+    "update": "2024-07-01 01:13",
+    "count": "1070",
     "convert": true
   },
   {
@@ -307,21 +295,21 @@
     "port": 8888,
     "regex": "目前共有\\d+位巫师、(\\d+)位玩家",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "89",
+    "update": "2024-07-01 01:13",
+    "count": "83",
     "convert": false
   },
   {
-    "zh_name": "一世風雲",
-    "en_name": "FY3",
+    "zh_name": "西游記之鴻蒙初辟",
+    "en_name": "XYJ.HMCP",
     "encoding": "gbk",
-    "address": "www.mudfy.com",
-    "port": 6666,
-    "regex": false,
+    "address": "hucuace.com",
+    "port": 13103,
+    "regex": "、(.+)位玩家，",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "NULL",
-    "convert": false
+    "update": "2024-07-01 01:13",
+    "count": "0",
+    "convert": true
   },
   {
     "zh_name": "仙侣情緣",
@@ -331,9 +319,21 @@
     "port": 6666,
     "regex": "、(.*)位玩家，",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "72",
     "convert": true
+  },
+  {
+    "zh_name": "一世風雲",
+    "en_name": "FY3",
+    "encoding": "gbk",
+    "address": "www.mudfy.com",
+    "port": 6666,
+    "regex": false,
+    "status": true,
+    "update": "2024-07-01 01:13",
+    "count": "NULL",
+    "convert": false
   },
   {
     "zh_name": "鄭州風雲",
@@ -343,7 +343,7 @@
     "port": 4000,
     "regex": "天下无敌目前共有(\\d+)位玩家游戏中",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -355,7 +355,7 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -367,7 +367,7 @@
     "port": 8888,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -379,8 +379,8 @@
     "port": 6666,
     "regex": "目前共有(\\d+)位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "605",
+    "update": "2024-07-01 01:13",
+    "count": "601",
     "convert": false
   },
   {
@@ -391,7 +391,7 @@
     "port": 1212,
     "regex": "目前在线数目：(.*)人",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "0",
     "convert": true
   },
@@ -403,8 +403,8 @@
     "port": 8080,
     "regex": "目前共有 (\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "665",
+    "update": "2024-07-01 01:13",
+    "count": "651",
     "convert": false
   },
   {
@@ -415,7 +415,7 @@
     "port": 4000,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "364",
     "convert": false
   },
@@ -427,32 +427,8 @@
     "port": 5555,
     "regex": "(\\d+) 位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "140",
-    "convert": false
-  },
-  {
-    "zh_name": "古龍群俠",
-    "en_name": "FY.GLQX",
-    "encoding": "gbk",
-    "address": "www.mudbar.cn",
-    "port": 3333,
-    "regex": false,
-    "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "NULL",
-    "convert": false
-  },
-  {
-    "zh_name": "天龍八部",
-    "en_name": "TLBB",
-    "encoding": "gbk",
-    "address": "tl.maoyu.com",
-    "port": 8888,
-    "regex": "(\\d+) 位江湖豪客在线上",
-    "status": true,
-    "update": "2024-07-01 12:18",
-    "count": "244",
     "convert": false
   },
   {
@@ -463,19 +439,19 @@
     "port": 6666,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
   {
-    "zh_name": "風雲诀",
-    "en_name": "FY4",
+    "zh_name": "古龍群俠",
+    "en_name": "FY.GLQX",
     "encoding": "gbk",
-    "address": "fy4.vmud.com",
-    "port": 30004,
+    "address": "www.mudbar.cn",
+    "port": 3333,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -487,19 +463,31 @@
     "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
   {
-    "zh_name": "王者歸來",
-    "en_name": "NT.WZGL",
+    "zh_name": "風雲诀",
+    "en_name": "FY4",
     "encoding": "gbk",
-    "address": "seikitin.com",
-    "port": 6000,
+    "address": "fy4.vmud.com",
+    "port": 30004,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
+    "count": "NULL",
+    "convert": false
+  },
+  {
+    "zh_name": "風雲再現",
+    "en_name": "FYZX",
+    "encoding": "gbk",
+    "address": "mud.fy-vi.cn",
+    "port": 6666,
+    "regex": false,
+    "status": true,
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   },
@@ -511,19 +499,31 @@
     "port": 6666,
     "regex": "(\\d+)位玩家在线上",
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "873",
     "convert": false
   },
   {
-    "zh_name": "風雲再現",
-    "en_name": "FYZX",
+    "zh_name": "天龍八部",
+    "en_name": "TLBB",
     "encoding": "gbk",
-    "address": "mud.fy-vi.cn",
-    "port": 6666,
+    "address": "tl.maoyu.com",
+    "port": 8888,
+    "regex": "(\\d+) 位江湖豪客在线上",
+    "status": true,
+    "update": "2024-07-01 01:13",
+    "count": "243",
+    "convert": false
+  },
+  {
+    "zh_name": "王者歸來",
+    "en_name": "NT.WZGL",
+    "encoding": "gbk",
+    "address": "seikitin.com",
+    "port": 6000,
     "regex": false,
     "status": true,
-    "update": "2024-07-01 12:18",
+    "update": "2024-07-01 01:13",
     "count": "NULL",
     "convert": false
   }
